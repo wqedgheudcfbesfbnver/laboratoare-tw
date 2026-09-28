@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>City Explorer</h1>
+
+        <nav>
+            <a href="#destinatii">Destinații</a>
+            <a href="#planifica">Planifică</a>
+            <a href="#recomandari">Recomandări</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="destinatii">
+            <h2>Destinații</h2>
+
+            <div class="cards">
+
+                <article class="card featured">
+                    <h3>Paris</h3>
+                    <p><strong>Țara:</strong> Franța</p>
+                    <p>Un oraș romantic, perfect pentru artă, cultură și plimbări.</p>
+                    <p><strong>Durata recomandată:</strong> 3 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Roma</h3>
+                    <p><strong>Țara:</strong> Italia</p>
+                    <p>Un oraș plin de istorie, monumente și mâncare delicioasă.</p>
+                    <p><strong>Durata recomandată:</strong> 3 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Madrid</h3>
+                    <p><strong>Țara:</strong> Spania</p>
+                    <p>Un oraș vibrant, cunoscut pentru muzee și piețe.</p>
+                    <p><strong>Durata recomandată:</strong> 3 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Viena</h3>
+                    <p><strong>Țara:</strong> Austria</p>
+                    <p>Un oraș elegant, cunoscut pentru palate, muzică și arhitectură.</p>
+                    <p><strong>Durata recomandată:</strong> 2 zile</p>
+                </article>
+
+                <article class="card">
+                    <h3>Bari</h3>
+                    <p><strong>Țara:</strong> Italia</p>
+                    <p>Un oraș de coastă cu plaje, străduțe frumoase și preparate italiene.</p>
+                    <p><strong>Durata recomandată:</strong> 3 zile</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică</h2>
+
+            <form>
+
+                <label for="name">Nume</label>
+                <input id="name" name="name" type="text">
+
+                <label for="destination">Destinație</label>
+                <select id="destination" name="destination">
+                    <option value="">Alege...</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Viena">Viena</option>
+                    <option value="Bari">Bari</option>
+                </select>
+
+                <label for="days">Număr de zile</label>
+                <input id="days" name="days" type="number">
+
+                <button type="submit">Planifică excursia</button>
+
+            </form>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări</h2>
+
+            <ul>
+                <li>Verifică vremea înainte de plecare.</li>
+                <li>Vizitează principalele obiective turistice.</li>
+                <li>Încearcă preparatele tradiționale locale.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        Ana Maria Nițu, 2026
+    </footer>
+
+</body>
+
+</html>
